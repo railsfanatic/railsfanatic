@@ -15,7 +15,7 @@ Public repository: <%= link_to "github.com/tgrushka", "http://github.com/tgrushk
 			<strong><%= label_tag "project_id_#{project.id}", project.display_name %></strong>
 			<%= content_tag(:div, image_tag(project.image)) unless project.image.blank? %>
 			<%= content_tag(:div, simple_format(project.description)) unless project.description.blank? %>
-			<%= content_tag(:div, link_to("View Site", project.url, :target => "_blank")) unless project.url.blank? %>
+			<%= content_tag(:div, link_to("View Site", "portfolio/#{project.url}/index.html", :target => "_blank")) unless project.url.blank? %>
 			<% if admin? -%>
 		    <%= link_to 'Show', project %> |
 		    <%= link_to 'Edit', edit_project_path(project) %> |
