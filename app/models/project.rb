@@ -8,4 +8,12 @@ class Project < ActiveRecord::Base
       client.blank? ? name : "#{client}: #{name}"
     end
   end
+  
+  def link_url
+    if url.index("http://")
+      url
+    else
+      "portfolio/#{url}/index.html"
+    end
+  end
 end
