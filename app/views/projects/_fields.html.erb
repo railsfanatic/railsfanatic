@@ -1,0 +1,25 @@
+<%= f.error_messages :object_name => "project" %>
+<% if params[:field].blank? || params[:field] == "name" %>
+<p>
+  <%= f.label :name %><br />
+  <%= f.text_field :name %>
+</p>
+<% end %>
+<% if params[:field].blank? || params[:field] == "client" %>
+<p>
+  <%= f.label :client %><br />
+  <%= f.text_field :client %>
+</p>
+<% end %>
+<% if params[:field].blank? || params[:field] == "url" %>
+<p>
+  <%= f.label :url %><br />
+  <%= f.text_field :url %>
+</p>
+<% end %>
+<% if params[:field].blank? || params[:field] == "description" %>
+<p>
+  <%= f.label :description %><br />
+  <%= f.text_area :description %>
+</p>
+<% end %>

@@ -1,0 +1,146 @@
+body {
+  background-color: black;
+  font-family: Verdana, Helvetica, Arial;
+  font-size: 16px;
+	margin: 0;
+	color: white;
+}
+
+a img {
+  border: none;
+}
+
+a {
+  color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	border-bottom: 2px dotted red;
+}
+
+.clear {
+  clear: both;
+  height: 0;
+  overflow: hidden;
+}
+
+#container {
+  width: 1024px;
+  margin: 0 auto;
+  background-color: black;
+	background-image: url(../images/background.jpg);
+  padding: 0;
+  border: none;
+  margin-top: 0px;
+}
+
+#flash_notice, #flash_error, #flash_warning {
+  padding: 5px 8px;
+  margin: 10px 0;
+	color: black;
+}
+
+#flash_notice {
+  background-color: #CFC;
+  border: solid 1px #6C6;
+}
+
+#flash_error {
+  background-color: #FCC;
+  border: solid 1px #C66;
+}
+
+.fieldWithErrors {
+  display: inline;
+}
+
+#errorExplanation {
+  width: 400px;
+  border: 2px solid #CF0000;
+  padding: 0px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#errorExplanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: 0;
+  background-color: #c00;
+  color: #fff;
+}
+
+#errorExplanation p {
+  color: #333;
+  margin-bottom: 0;
+  padding: 8px;
+}
+
+#errorExplanation ul {
+  margin: 2px 24px;
+}
+
+#errorExplanation ul li {
+  font-size: 12px;
+  list-style: disc;
+}
+
+#navigation {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#navigation a {
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	border: none;
+	margin: 0 0 0 20px;
+	padding: 20px 25px 20px 25px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#navigation a:hover, #current {
+	background-color: #a00;
+}
+
+#content {
+	min-height: 800px;
+	padding: 0 20px 20px 20px;
+}
+
+#sortable {
+	padding: 0;
+	margin: 0;
+	width: 1000px;
+}
+
+#sortable li {
+	list-style: none;
+	float: left;
+	margin-right: 10px;
+}
+
+#sortable li div.handle {
+	color: #fff;
+	width: 281px;
+	height: 300px;
+	text-align: center;
+}
+
+.shade {
+	margin-top: 20px;
+	padding: 5px 20px;
+	background-image: url(../images/50_percent.png);
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+}
+
+.center {
+	text-align: center;
+}

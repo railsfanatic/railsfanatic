@@ -1,0 +1,11 @@
+.DS_Store
+log/*.log
+tmp/**/*
+doc/api
+doc/app
+db/*.sqlite3
+lib/tasks/cucumber.rake
+lib/tasks/rcov.rake
+lib/tasks/rspec.rake
+coverage.data
+coverage/*

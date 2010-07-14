@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title><%= h(yield(:title) || "railsfanatic") %> | railsfanatic</title>
+    <%= stylesheet_link_tag 'application' %>
+		<%= javascript_include_tag :all %>
+    <%= yield(:head) %>
+  </head>
+  <body>
+    <div id="container">
+			<%= image_tag "banner.jpg" %>
+			
+			<div id="navigation">
+				<%= navigation_links %>
+			</div>
+      
+			<div id="content">
+				<% unless defined?(@no_shade) %>
+				<div class="shade">
+				<% end %>
+      <%- flash.each do |name, msg| -%>
+        <%= content_tag :div, msg, :id => "flash_#{name}" %>
+      <%- end -%>
+			
+			<% if admin? %>
+				<p><strong>Logged in as administrator.</strong> <%= link_to "Logout", logout_path %></p>
+			<% end %>
+			
+      <%= yield %>
+				<% unless defined?(@no_shade) %>
+				</div>
+				<% end %>
+			</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+<p>
+  <b>Name:</b>
+  <%=h @project.name %>
+</p>
+
+<p>
+  <b>Client:</b>
+  <%=h @project.client %>
+</p>
+
+<p>
+  <b>Url:</b>
+  <%=h @project.url %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @project.description %>
+</p>
+
+<p>
+  <b>Position:</b>
+  <%=h @project.position %>
+</p>
+
+
+<%= link_to 'New', new_project_path %> |
+<%= link_to 'Edit', edit_project_path(@project) %> |
+<%= link_to 'Back', projects_path %>

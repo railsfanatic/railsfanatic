@@ -1,0 +1,2 @@
+rails -v 2.3.8
+acts_as_list

@@ -1,0 +1,9 @@
+<% form_tag update_individual_projects_path, :method => :put do %>
+  <% for project in @projects %>
+    <% fields_for "projects[]", project do |f| %>
+      <h2><%=h project.display_name %></h2>
+      <%= render "fields", :f => f %>
+    <% end %>
+  <% end %>
+  <p><%= submit_tag "Submit" %></p>
+<% end %>
