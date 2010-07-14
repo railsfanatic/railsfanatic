@@ -1,0 +1,112 @@
+td img
+{
+	display: block;
+}
+h1 {
+	font-size: 1.75em;
+	color: #FFD52B;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	text-align: center;
+
+
+
+
+
+}
+h2 {
+	font-size: 1.25em;
+	font-style: oblique;
+	color: #FFFF99;
+	margin-top: 0.25em;
+	margin-bottom: 0.25em;
+
+
+
+
+
+}
+h3 {
+	font-size: 1em;
+	margin-top: 0.25em;
+	margin-bottom: 0.25em;
+	color: #FFFF99;
+
+
+
+
+}
+em {
+	font-weight: bold;
+	color: #FFFF99;
+
+
+}
+body {
+	color: #FFFFFF;
+	background: #002244;
+	font-family: Arial, Helvetica, sans-serif;
+
+
+
+
+}
+p {
+	margin-top: 0em;
+	margin-bottom: 1em;
+}
+a {
+	color: #00CCFF;
+	text-decoration: none;
+	border-bottom: 2px dashed;
+
+}
+a:hover {
+
+	color: #FFFF00;
+	text-decoration: none;
+	border-bottom: 2px solid;
+}
+hr {
+	height: 0px;
+	border-top: none;
+	border-bottom: 1px solid #FCECAD;
+
+
+
+
+}
+td.content {
+
+
+	font-size: 1.2em;
+}
+td.sitelink {
+	font-size: 1.2em;
+	border-top: 1px solid #F8D95C;
+	border-right: 1px solid #F8D95C;
+	border-bottom: 1px solid #F8D95C;
+	border-left: none;
+
+
+
+}
+table.sitelinks {
+	margin-bottom: 1em;
+	border-left: 1px solid #F8D95C;
+	margin-top: 1em;
+
+
+
+}
+li {
+
+	margin-top: 1em;
+}
+.level2 {
+
+
+
+
+	margin-top: 0em;
+}

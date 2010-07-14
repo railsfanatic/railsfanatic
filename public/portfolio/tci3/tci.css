@@ -1,0 +1,33 @@
+A.sidebar {  font-family: Arial, Helvetica, sans-serif; font-size: 12pt; font-weight: bold; color: #FFFFFF}
+td {  font-family: Arial, Helvetica, sans-serif; font-size: 10pt; line-height: 14pt}
+.sidebar { font-family: "Arial Narrow"; font-size: 12pt; color: #FFFFFF ; font-weight: bold}
+.copyright {  font-size: 8pt; color: #999999}
+hr {  height: 1px; color: #CCCCCC }
+a {  color: #FF6600; text-decoration: none}
+a:hover { color: #FF9900; text-decoration: underline}
+.quote {  border-color: #FFFFFF #FFFFFF #FFFFFF #FF9900; font-family: "Times New Roman", Times, serif; font-size: 12pt; font-style: italic; padding-left: 15px; background-color: #FFFDEA; border-style: none; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 2px; padding-top: 10px}
+.quoteCap {  font-family: Arial, Helvetica, sans-serif; font-size: 8pt; padding-left: 40px; line-height: 8pt; border-color: #FFFFFF #FFFFFF #FFFFFF #FF9900; padding-top: 5px; border-style: none; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 2px; background-color: #FFFDEA; padding-bottom: 10px}
+#divNewsCont {
+	position:absolute;
+	left:10px;
+	top:330px;
+	width:183px;
+	height:275px;
+	background-color: black;
+	visibility:hidden;
+	overflow:hidden;
+	line-height: 12pt;
+	margin-top: 5px;
+}
+#divNews { font-weight: bold; position:absolute; margin-top: 20px; }
+.credit { margin-top: 10px; font-weight: normal; font-size: 8pt; font-style: italic; line-height: 10pt }
+.expand {
+	margin-left: 0px;
+	padding: 15px;
+	background-color: #EEEEEE;
+	font-size: 10pt;
+	line-height: 16pt;
+	list-style-position: inside;
+
+
+}

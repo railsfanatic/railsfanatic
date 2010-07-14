@@ -1,0 +1,61 @@
+TD
+{
+	CURSOR: default;
+    FONT-SIZE: 10pt;
+    FONT-FAMILY: Arial
+}
+A
+{
+    COLOR: #ffffff;
+    TEXT-DECORATION: none
+}
+A:hover
+{
+    TEXT-DECORATION: underline
+}
+.Title
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 11pt;
+    TEXT-TRANSFORM: uppercase;
+    LINE-HEIGHT: 24pt;
+    FONT-STYLE: italic
+}
+.Small
+{
+    FONT-SIZE: 8pt
+}
+BODY
+{
+	CURSOR: default;
+    FONT-SIZE: 10pt;
+    COLOR: #ffffff;
+    SCROLLBAR-ARROW-COLOR: #88ccff;
+    SCROLLBAR-BASE-COLOR: #3366bb;
+    BACKGROUND-COLOR: #354d8d
+}
+.Link_On
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: #000000 1px solid;
+    FONT-WEIGHT: bold;
+    BORDER-LEFT: medium none;
+    COLOR: #FFFFFF;
+    BORDER-BOTTOM: #000000 1px solid;
+    BACKGROUND-COLOR: #EE8800;
+}
+.Link_Off
+{
+    COLOR: #FFFFFF
+}
+SELECT
+{
+	CURSOR: default;
+    FONT-SIZE: 10pt;
+    COLOR: #204080;
+    BACKGROUND-COLOR: #fff8dc
+}
+.Copyright
+{
+    FONT-SIZE: 8pt
+}

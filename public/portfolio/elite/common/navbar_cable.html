@@ -1,0 +1,87 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html>
+<head>
+<title>Elite Electronics - USB Navigation</title>
+</head>
+<body bgcolor="#FFFFFF" leftmargin=0 topmargin=1 text="#000000" link="#8080C0" vlink="#9F9F9F" background="../images/navbg.gif">
+
+<SCRIPT LANGUAGE = "JavaScript">
+
+<!--
+	// ACTIVE IMAGES
+        if (document.images) {
+            img1on = new Image();
+            img1on.src = "../images/navbar/drivers_on.gif"; 
+            img2on = new Image();
+            img2on.src = "../images/navbar/adapters_on.gif";  
+            img3on = new Image();
+            img3on.src = "../images/navbar/cable_on.gif";
+            img4on = new Image();
+            img4on.src = "../images/navbar/connect_on.gif";
+            img5on = new Image();
+            img5on.src = "../images/navbar/search_on.gif";
+            img6on = new Image();
+            img6on.src = "../images/navbar/support_on.gif";
+            img7on = new Image();
+            img7on.src = "../images/navbar/aboutelite_on.gif";
+            img8on = new Image();
+            img8on.src = "../images/navbar/aboutusb_on.gif";
+
+	// INACTIVE IMAGES
+            img0off = new Image();
+            img0off.src = "../images/navbar/elite.gif"; 
+            img1off = new Image();
+            img1off.src = "../images/navbar/drivers.gif"; 
+            img2off = new Image();
+            img2off.src = "../images/navbar/adapters.gif"; 
+            img3off = new Image();
+            img3off.src = "../images/navbar/cable_on.gif";
+            img4off = new Image();
+            img4off.src = "../images/navbar/connect.gif";
+            img5off = new Image();
+            img5off.src = "../images/navbar/search.gif";
+            img6off = new Image();
+            img6off.src = "../images/navbar/support.gif";
+            img7off = new Image();
+            img7off.src = "../images/navbar/aboutelite.gif";
+            img8off = new Image();
+            img8off.src = "../images/navbar/aboutusb.gif";
+
+        }
+
+// Function to 'activate' images.
+function imgOn(imgName) {
+        if (document.images) {
+            document[imgName].src = eval(imgName + "on.src");
+        }
+}
+
+// Function to 'deactivate' images.
+function imgOff(imgName) {
+        if (document.images) {
+            document[imgName].src = eval(imgName + "off.src");
+        }
+}
+// -->
+
+</script>
+
+<table width="500" border="0" cellspacing="0" cellpadding="0">
+<tr valign="TOP">
+    <td width="103" rowspan="3"><a href="../index.html" target="_top"><img name="img0" src="../images/navbar/elite.gif" width=103 height=100 border=0 alt="Elite"></a></td>
+    <td width="397" colspan="3"><a href="../products/drivers/index.html" target="_top" onMouseOver = "imgOn('img1')" onMouseOut = "imgOff('img1')"><img name="img1" src="../images/navbar/drivers.gif" width=88 height=50 border=0 alt="Custom Drivers"></a><a href="../products/adapters/index.html" target="_top" onMouseOver = "imgOn('img2')" onMouseOut = "imgOff('img2')"><img name="img2" src="../images/navbar/adapters.gif" width=101 height=50 border=0 alt="Hubs &amp; Adapters"></a><a href="../products/cable/index.html" target="_top" onMouseOver = "imgOn('img3')" onMouseOut = "imgOff('img3')"><img name="img3" src="../images/navbar/cable_on.gif" width=108 height=50 border=0 alt="Cable Assemblies"></a><a href="../products/connectors/index.html" target="_top" onMouseOver = "imgOn('img4')" onMouseOut = "imgOff('img4')"><img name="img4" src="../images/navbar/connect.gif" width=100 height=50 border=0 alt="Connectors"></a></td>
+</tr>
+<tr valign="TOP">
+    <td width="148"><a href="../elite/index.html" target="_top" onMouseOver = "imgOn('img7')" onMouseOut = "imgOff('img7')"><img name="img7" src="../images/navbar/aboutelite.gif" width=148 height=27 border=0 alt="About Elite"></a></td>
+    <td width="97" rowspan="2"><a href="../support/index.html" target="_top" onMouseOver = "imgOn('img6')" onMouseOut = "imgOff('img6')"><img name="img6" src="../images/navbar/support.gif" width=97 height=50 border=0 alt="Support &amp; Feedback"></a></td>
+    <td width="152" rowspan="3"><img name="img5" src="../images/navbar/search.gif" border=0 width=77 height=25 alt="Search:" align="bottom"></a><img src="../images/1ptrans.gif" width=10 height=25 border=0 alt=""><input type="Image" name="Go" src="../images/go.gif" border="0" width="20" height="20"><br><img src="../images/1ptrans.gif" width=27 height=25 border=0 alt=" " align="left" hspace=0 vspace=0><font size="-1"><input type="Text" name="search" size="15"></font></td>
+</tr>
+<tr valign="TOP">
+    <td width="148"><a href="../usb/index.html" target="_top" onMouseOver = "imgOn('img8')" onMouseOut = "imgOff('img8')"><img name="img8" src="../images/navbar/aboutusb.gif" width=148 height=23 border=0 alt="About USB"></a></td>
+</tr>
+<tr valign="TOP">
+    <td>&nbsp;</td>
+</tr>
+</table>
+</body>
+</html>

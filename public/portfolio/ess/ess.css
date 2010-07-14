@@ -1,0 +1,206 @@
+.textCell {
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: smaller;
+	background-color: #ffffff;
+}
+
+UL {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+P {
+	margin-top: 1em;
+	margin-bottom: 0em;
+}
+
+LI {
+	margin-top: 0.5em;
+}
+
+H1 {
+	color: #888888;
+	font-family: Arial, Helvetica;
+	font-size: 1.5em;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+
+EM {
+	background-color: #FFFFCC;
+}
+
+.smlabel {
+	font-size: 0.7em;
+	color: #003399;
+}
+
+.regText {
+	font-size: 0.8em;
+}
+
+H2 {
+	color: #cc3300;
+	font-family: Arial, Helvetica;
+	font-size: 1.4em;
+	line-height: 1em;
+	font-weight: normal;
+	font-style: italic;
+}
+
+FORM {
+	margin: 0px;
+	padding: 0px;
+}
+
+TD {
+	font-family: Arial, Helvetica;
+}
+
+TH {
+	font-family: Arial, Helvetica;
+}
+
+.content {
+	font-family: Arial, Helvetica;
+	font-size: medium;
+	line-height: 1.2em;
+}
+
+TD.content {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.pullquote {
+	font-weight: bold;
+	font-style: italic;
+	color: #000000;
+	background-color: #dddddd;
+	padding: 10px;
+	border: solid black 1px;
+}
+
+A {
+	font-weight: bold;
+	color: #003399;
+	text-decoration: none;
+}
+
+A:hover {
+	text-decoration: underline;
+}
+
+SELECT.userForm {
+	font-family: monospace;
+	width: 96%;
+}
+
+INPUT.userForm {
+	font-family: monospace;
+	x-width: 325px;
+	width: 94%;
+}
+
+TEXTAREA.userForm {
+	width: 94%;
+}
+
+TABLE.userFormOuter {
+	width: 100%;
+}
+
+TH.userFormOuter {
+	background-color: #000000;
+	color: #ffffff;
+	text-align: left;
+	height: 24px;
+	font-size: smaller;
+	font-weight: bold;
+	padding-left: 10px;
+	padding-top: 2px;
+}
+
+TD.userFormOuter {
+	background-color: #000000;
+}
+
+.caption {
+	font-family: Arial, Helvetica;
+	font-size: 8pt;
+	color: #333333;
+}
+
+.dropcap {
+	float: left;
+	font-size: 3.2em;
+	padding-top: 0.25em;
+	height: 1em;
+	color: #CC3300;
+}
+
+.date {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-weight: bold;
+	color: #FFFFFF;
+	float: right;
+	margin-right: 10px;
+	margin-top: 8px;
+	clear: none;
+	white-space: nowrap;
+}
+
+.sidebar {
+	font-size: small;
+	color: #ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+input.sidebar {
+	color: #000000;
+	font-size: 8pt;
+	border: 1px solid #000000;
+	width: 105px;
+	margin: 1px;
+	height: 15px;
+}
+
+.copyright {
+	font-size: 8pt;
+	font-weight: bold;
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+A.copyright {
+	font-size: 8pt;
+	font-weight: bold;
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.fieldLabel {
+	font-weight: bold;
+	font-size: smaller;
+}
+
+.fieldValue {
+	font-size: smaller;
+}
+
+.summaryLeft {
+	font-size: smaller;
+	padding-left: 10px;
+}
+
+.summaryRight {
+	font-size: smaller;
+	padding-right: 10px;
+}
+
+.terms {
+	font-size: smaller;
+	line-height: 1.2em;
+}

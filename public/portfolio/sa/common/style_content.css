@@ -1,0 +1,163 @@
+BODY
+{
+	CURSOR: default;
+    FONT-SIZE: 10pt;
+    COLOR: #204080;
+    SCROLLBAR-ARROW-COLOR: #88ccff;
+    FONT-FAMILY: Arial;
+    SCROLLBAR-BASE-COLOR: #3366bb;
+    BACKGROUND-COLOR: #ffffff;
+}
+TD
+{
+    FONT-SIZE: 10pt;
+    BACKGROUND-COLOR: #ffffff;
+}
+A
+{
+    COLOR: #cc0000;
+    TEXT-DECORATION: none;
+}
+A:hover
+{
+    TEXT-DECORATION: underline;
+}
+TH
+{
+	CURSOR: default;
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    TEXT-TRANSFORM: uppercase;
+    BACKGROUND-COLOR: #c3d3df;
+    TEXT-ALIGN: left;
+}
+.Event
+{
+    MARGIN-TOP: 1px;
+    PADDING-LEFT: 2px;
+    FONT-SIZE: 8pt;
+}
+.Today
+{
+    COLOR: #ffffff;
+    BACKGROUND-COLOR: #c3d3df
+}
+.Label
+{
+    BORDER-RIGHT: #204080 1px solid;
+    PADDING-RIGHT: 2px;
+    BORDER-TOP: #204080 1px solid;
+    PADDING-LEFT: 2px;
+    PADDING-BOTTOM: 1px;
+    BORDER-LEFT: #204080 1px solid;
+    COLOR: #3060a0;
+    PADDING-TOP: 1px;
+    BORDER-BOTTOM: #204080 1px solid;
+    FONT-FAMILY: Arial;
+}
+.Error
+{
+    BORDER-RIGHT: #000000 1px solid;
+    PADDING-RIGHT: 3px;
+    BORDER-TOP: #000000 1px solid;
+    MARGIN-TOP: 1px;
+    PADDING-LEFT: 3px;
+    FONT-WEIGHT: bold;
+    PADDING-BOTTOM: 3px;
+    BORDER-LEFT: #000000 1px solid;
+    COLOR: #cc0000;
+    PADDING-TOP: 3px;
+    BORDER-BOTTOM: #000000 1px solid;
+    BACKGROUND-COLOR: #ffcc00;
+}
+.Success
+{
+    BORDER-RIGHT: #000000 1px solid;
+    PADDING-RIGHT: 3px;
+    BORDER-TOP: #000000 1px solid;
+    MARGIN-TOP: 1px;
+    PADDING-LEFT: 3px;
+    FONT-WEIGHT: bold;
+    PADDING-BOTTOM: 3px;
+    BORDER-LEFT: #000000 1px solid;
+    COLOR: green;
+    PADDING-TOP: 3px;
+    BORDER-BOTTOM: #000000 1px solid;
+    BACKGROUND-COLOR: #9fffeb;
+}
+BIG
+{
+    FONT-SIZE: 12pt;
+    COLOR: #ff6600;
+    FONT-FAMILY: Arial;
+}
+HR
+{
+    COLOR: #204080;
+    HEIGHT: 1px;
+}
+H2
+{
+    FONT-SIZE: 13pt;
+    TEXT-TRANSFORM: uppercase;
+}
+H3
+{
+    FONT-SIZE: 12pt;
+}
+P
+{
+    FONT-SIZE: 10pt;
+    COLOR: #204080;
+    FONT-FAMILY: Arial;
+}
+.Form
+{
+	CURSOR: default;
+    BORDER: #204080 1px solid;
+    FONT-SIZE: 10pt;
+    COLOR: #204080;
+    FONT-FAMILY: Arial;
+    BACKGROUND-COLOR: #fffff0;
+}
+.Button
+{
+	CURSOR: default;
+    FONT-SIZE: 10pt;
+    TEXT-TRANSFORM: uppercase;
+    COLOR: #204080;
+}
+SELECT
+{
+	CURSOR: default;
+    FONT-SIZE: 10pt;
+    COLOR: #204080;
+    BACKGROUND-COLOR: #fffff0;
+}
+.Copyright
+{
+    FONT-SIZE: 8pt;
+    BACKGROUND-COLOR: transparent;
+}
+.Counter
+{
+    BORDER-RIGHT: #204080 1px solid;
+    BORDER-TOP: #204080 1px solid;
+    BORDER-LEFT: #204080 1px solid;
+    BORDER-BOTTOM: #204080 1px solid;
+    BACKGROUND-COLOR: transparent;
+	FONT-SIZE: 8pt;
+}
+TD.normal
+{
+    FONT-SIZE: 10pt;
+    BACKGROUND: clear;
+}
+TH.normal
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 10pt;
+    TEXT-TRANSFORM: none;
+    BACKGROUND: clear;
+    TEXT-ALIGN: left;
+}
